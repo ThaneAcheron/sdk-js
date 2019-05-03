@@ -14,7 +14,7 @@ module.exports = {
   // options for the mocha client
   client: {
     mocha: {
-      timeout: 10000,
+      timeout: 30000,
     },
   },
 
@@ -57,7 +57,7 @@ module.exports = {
   browsers: ['ChromiumHeadless'],
 
   browserNoActivityTimeout: 60000,
-  browserDisconnectTimeout: 20000,
+  browserDisconnectTimeout: 60000,
 
   // Concurrency level
   // how many browser should be started simultaneous
